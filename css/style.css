@@ -184,7 +184,33 @@ img {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
 }
+
+/* .hero-right {
+  background-color: rgb(32, 32, 32);
+  background-image: linear-gradient(
+      rgba(25, 28, 38, 0.2),
+      rgba(25, 28, 38, 0.2)
+    ),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+  padding: 272px 0 206px 96px;
+} */
 
 .container-hero {
   display: flex;
@@ -194,7 +220,7 @@ img {
 
 .hero-title {
   color: var(--white);
-  background-color: var(--secondary-background-color);
+  /* background-color: var(--secondary-background-color); */
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
