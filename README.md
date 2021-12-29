@@ -10,3 +10,7 @@
 лучше использовать флекс бейсис вместо видс
 
 Bracket Pair Colorizer
+
+iconmoon
+svgomg
+1.44

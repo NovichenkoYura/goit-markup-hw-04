@@ -348,7 +348,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   /* background-color: blue; */
-  /* margin-bottom: 30px; */
+  margin-bottom: 16px;
 }
 
 .team-image {
@@ -374,6 +374,23 @@ img {
 /* .team-card:not(:last-child) {
   margin-right: 30px;
 } */
+
+.team-item-social {
+  display: flex;
+  justify-content: center;
+}
+
+.player-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: teal;
+  display: block;
+  border-radius: 50%;
+}
+
+.team-player-social + .team-player-social {
+  margin-left: 10px;
+}
 
 /* Button */
 .button {
