@@ -320,6 +320,9 @@ img {
 
 .team {
   background-color: var(--third-background-color);
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-item {
@@ -383,11 +386,22 @@ img {
 .player-social-link {
   width: 44px;
   height: 44px;
-  background-color: teal;
+  background-color: var(--white);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #afb1b8;
+}
+
+.player-social-icon {
+  fill: currentColor;
+}
+
+.player-social-link:hover,
+.player-social-link:focus {
+  background-color: var(--accent-color);
+  color: var(--white);
 }
 
 .team-player-social + .team-player-social {
