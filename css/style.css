@@ -145,13 +145,14 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+
   /* padding-top: 32px;
   padding-bottom: 32px; */
 }
 
 .header-adress {
   display: flex;
-  margin-left: 331px;
+  margin-left: 305px;
 }
 
 .header-adress .adress-link.current {
@@ -159,9 +160,18 @@ img {
 }
 
 .header-address-link:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
+.header-address-div {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.adsress-item-icon {
+  margin-right: 10px;
+}
 /* Section-title */
 
 .section-title {
