@@ -384,8 +384,10 @@ img {
   width: 44px;
   height: 44px;
   background-color: teal;
-  display: block;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .team-player-social + .team-player-social {
