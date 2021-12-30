@@ -476,6 +476,9 @@ img {
   background: var(--secondary-background-color);
   padding-bottom: 60px;
   padding-top: 60px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer .link:hover,
@@ -529,6 +532,14 @@ img {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--footer-text-color);
+}
+
+.footer-social-header {
+  font-family: Roboto;
+  font-style: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--white);
 }
 
 /* Портфолио */
