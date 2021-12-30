@@ -280,6 +280,18 @@ img {
   margin-bottom: 30px;
 }
 
+.adv-list-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--third-background-color);
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+.adv-item-icon {
+}
+
 /* .portfolio-list {
   display: flex;
   flex-wrap: wrap;
