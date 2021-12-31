@@ -482,7 +482,7 @@ img {
 .clients-item {
 }
 
-.clients-list-icon {
+.clients-link-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -491,6 +491,17 @@ img {
   width: 170px;
   height: 92px;
   border-radius: 4px;
+  color: #afb1b8;
+}
+
+.clients-item-icon {
+  fill: currentColor;
+}
+
+.clients-link-icon:hover,
+.clients-link-icon:focus {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 .clients-wrap {
