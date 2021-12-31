@@ -470,6 +470,39 @@ img {
   color: var(--white);
 }
 
+/* --------Clients--------- */
+
+.clients {
+}
+
+.clents-section-title {
+  margin-bottom: 50px;
+}
+
+.clients-item {
+}
+
+.clients-list-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid #afb1b8;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+}
+
+.clients-wrap {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clients-item + .clients-item {
+  margin-left: 30px;
+}
+
 /* Footer */
 
 .footer {
