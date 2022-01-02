@@ -149,6 +149,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  display: flex;
+  align-items: center;
 
   /* padding-top: 32px;
   padding-bottom: 32px; */
@@ -186,8 +188,8 @@ img {
   fill: currentColor;
 }
 
-.header-address-link:hover,
-.header-address-link:focus {
+.header-address-link:focus,
+.header-address-link:hover {
   color: var(--accent-color);
 }
 
