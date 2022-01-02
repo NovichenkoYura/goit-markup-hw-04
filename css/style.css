@@ -265,16 +265,16 @@ img {
 
 /* Преимущества */
 
-.section.advantages {
+.section.features {
   /* background-color: lightsalmon; */
 }
 
-.advantages .discription {
+.features .discription {
   color: var(--secondary-text-color);
   /* max-width: 270px; */
 }
 
-.advantage-item {
+.feature-item {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -286,7 +286,7 @@ img {
   /* background-color: magenta; */
 }
 
-.advantages .discription {
+.features .discription {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
